@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserRegistrationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+    <EditText
+        android:id="@+id/email"
+        android:hint="@string/email"
+        android:layout_width="299dp"
+        android:layout_height="38dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/email_signup_et"
+        android:paddingLeft="48dp"
+        android:paddingRight="10dp" />
+    <EditText
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_width="299dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/password_signup_et"
+        android:paddingLeft="48dp"
+        android:paddingRight="10dp" />
+    <EditText
+        android:id="@+id/passwordValid"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_width="299dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/password_signup_et"
+        android:paddingLeft="48dp"
+        android:paddingRight="10dp" />
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp">
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="197px"
+        android:layout_height="201px"
+        android:layout_margin="2dp"
+        android:background="@drawable/driver_bu_img"/>
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="196px"
+        android:layout_height="201px"
+        android:layout_margin="2dp"
+        android:background="@drawable/customer_bu_img"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/errorMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="The email address you have entered is already registered"
+            android:textAlignment="center"
+            android:textColor="#ff0000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Button
+        android:id="@+id/registration"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/singup_bu"
+        android:layout_width="154.00dp"
+        android:layout_height="41.00dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

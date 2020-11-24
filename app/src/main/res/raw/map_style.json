@@ -1,0 +1,16 @@
+[
+  {
+    "featureType": "road",
+    "stylers": [
+      {
+        "color": "#2053db"
+      },
+      {
+        "visibility": "simplified"
+      },
+      {
+        "weight": 1
+      }
+    ]
+  }
+]

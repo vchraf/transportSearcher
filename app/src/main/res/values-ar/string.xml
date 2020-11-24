@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="title_activity_driver_map">Map</string>
+    <!--DriverMap-->
+    <string name="key">AIzaSyDFYFx7YUm0pY6MLZ60agqnUE_pErVbHbY</string>
+    <string name="roadkey">AIzaSyCN0wsjn7_YOzIcJmPYs53Q3-pSb8klU1A</string>
+    <string name="mapkey">AIzaSyDKRMV-JsUDgQx6nvbkY9c_SBbaEQNpK1k</string>
+    <string name="newkey">AIzaSyAYFvJZXa-sP-Dw4VGK4-f1t7DcnWymcRQ</string>
+
+    <!--Sittings-->
+    <string name="firstName">الاسم الاول</string>
+    <string name="lastName">الاسم الاخير</string>
+    <string name="LicenceN">رقم الرخصة</string>
+    <string name="CIN">رقم البطاقة الوطنية</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="carName">السيارة</string>
+    <string name="numPlates">رقم السيارة</string>
+    <string name="delivery">توصيل</string>
+
+    <!--Login/registration-->
+    <string name="email">email</string>
+    <string name="password">password</string>
+
+
+    <!--Map-->
+    <string name="logout">خروج</string>
+    <string name="history">تسجيلات</string>
+    <string name="settings">اعدادات</string>
+    <string name="destinationMark">الوجهة</string>
+    <string name="pickup_HereMark">الزبون</string>
+
+
+    <!--CustomerMap-->
+    <string name="call_Driver">النداء على سائق</string>
+    <string name="gettingYourDriver">البحت عن السئق ....</string>
+    <string name="LookingForDriverLocation">البحت عن السئق ....</string>
+    <string name="DriverFound">سائقك </string>
+    <string name="YourDriverIsHere">وصل السائق</string>
+    <string name="DriverFoundDes">: سائقك</string>
+    <string name="yourDriverMark">سائقك</string>
+
+
+
+
+
+    <!--DriverMap-->
+    <string name="pickedCustomer">وصلت لالزبون</string>
+    <string name="driveCompleted">اوصلت الزبون</string>
+    <string name="destination"> : الوجهة</string>
+    <string name="destinationEmpty">-- : الوجهة</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLoginActivity"
+    android:background="#1b49d4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="299dp"
+            android:layout_height="38dp"
+            android:background="@drawable/email_login_et"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingRight="10dp"
+            android:paddingLeft="48dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="299dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/password_login_et"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingRight="10dp"
+            android:paddingLeft="48dp" />
+
+        <TextView
+            android:id="@+id/errorMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="you have entered an invalid username or password. please try again"
+            android:textAlignment="center"
+            android:textColor="#ff0000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <Button
+            android:id="@+id/login"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/login_bu"
+            android:layout_width="199.67dp"
+            android:layout_height="41dp" />
+
+        <TextView
+            android:id="@+id/forgetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="forget password?"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+        <Button
+            android:id="@+id/registration"
+            android:layout_marginTop="11dp"
+            android:background="@drawable/signup_log_bu"
+            android:layout_width="154.00dp"
+            android:layout_height="41.00dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

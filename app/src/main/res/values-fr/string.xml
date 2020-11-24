@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">DemoApp</string>
+<string name="title_activity_driver_map">Map</string>
+    <!--DriverMap-->
+<string name="key">AIzaSyDFYFx7YUm0pY6MLZ60agqnUE_pErVbHbY</string>
+<string name="roadkey">AIzaSyCN0wsjn7_YOzIcJmPYs53Q3-pSb8klU1A</string>
+<string name="mapkey">AIzaSyDKRMV-JsUDgQx6nvbkY9c_SBbaEQNpK1k</string>
+<string name="newkey">AIzaSyAYFvJZXa-sP-Dw4VGK4-f1t7DcnWymcRQ</string>
+
+    <!--Sittings-->
+<string name="firstName">Nom</string>
+<string name="lastName">Prenom</string>
+<string name="LicenceN">Num Licence</string>
+<string name="CIN">CIN</string>
+<string name="phone">telephone</string>
+<string name="carName">car</string>
+<string name="numPlates">matricule</string>
+<string name="delivery">livraison</string>
+
+    <!--Login/registration-->
+<string name="email">email</string>
+<string name="password">password</string>
+
+
+    <!--Map-->
+<string name="logout">Déconnexion</string>
+<string name="history">histoire</string>
+<string name="settings">paramètres</string>
+<string name="destinationMark">destination</string>
+<string name="pickup_HereMark">pick-up ici</string>
+
+
+    <!--CustomerMap-->
+<string name="call_Driver">appel un Chauffeur</string>
+<string name="gettingYourDriver">Chercher un chauffeur....</string>
+<string name="LookingForDriverLocation">Chercher un chauffeur....</string>
+<string name="DriverFound">Votre chauffeur</string>
+<string name="YourDriverIsHere">Votre chauffeur est arrivé</string>
+<string name="DriverFoundDes">Votre chauffeur: </string>
+<string name="yourDriverMark">Votre chauffeur</string>
+
+
+
+
+
+    <!--DriverMap-->
+<string name="pickedCustomer">arrivé au client</string>
+<string name="driveCompleted">amené le client</string>
+<string name="destination">Destination: </string>
+<string name="destinationEmpty">Destination: --</string>
+
+</resources>

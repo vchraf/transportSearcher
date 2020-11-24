@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">DemoApp</string>
+    <string name="title_activity_driver_map">Map</string>
+    <!--DriverMap-->
+    <string name="key">AIzaSyDFYFx7YUm0pY6MLZ60agqnUE_pErVbHbY</string>
+    <string name="roadkey">AIzaSyCN0wsjn7_YOzIcJmPYs53Q3-pSb8klU1A</string>
+    <string name="mapkey">AIzaSyDKRMV-JsUDgQx6nvbkY9c_SBbaEQNpK1k</string>
+    <string name="newkey">AIzaSyAYFvJZXa-sP-Dw4VGK4-f1t7DcnWymcRQ</string>
+
+    <!--Sittings-->
+    <string name="firstName">first name</string>
+    <string name="lastName">last name</string>
+    <string name="LicenceN">Num Licence</string>
+    <string name="CIN">CIN</string>
+    <string name="phone">Phone</string>
+    <string name="carName">car</string>
+    <string name="numPlates">number plates</string>
+    <string name="delivery">delivery</string>
+
+    <!--Login/registration-->
+    <string name="email">email</string>
+    <string name="password">password</string>
+
+
+    <!--Map-->
+    <string name="logout">Logout</string>
+    <string name="history">history</string>
+    <string name="settings">settings</string>
+    <string name="destinationMark">destination</string>
+    <string name="pickup_HereMark">Pickup Here</string>
+
+
+    <!--CustomerMap-->
+    <string name="call_Driver">Call Driver</string>
+    <string name="gettingYourDriver">Getting your Driver....</string>
+    <string name="LookingForDriverLocation">Looking for Driver Location....</string>
+    <string name="DriverFound">Driver Found</string>
+    <string name="YourDriverIsHere">Your driver is Here</string>
+    <string name="DriverFoundDes">Driver Found: </string>
+    <string name="yourDriverMark">your driver</string>
+
+
+
+
+
+    <!--DriverMap-->
+    <string name="pickedCustomer">picked customer</string>
+    <string name="driveCompleted">drive completed</string>
+    <string name="destination">Destination: </string>
+    <string name="destinationEmpty">Destination: --</string>
+
+
+</resources>

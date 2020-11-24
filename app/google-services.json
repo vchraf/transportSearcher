@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "209237651031",
+    "firebase_url": "https://demoapp-85fc2.firebaseio.com",
+    "project_id": "demoapp-85fc2",
+    "storage_bucket": "demoapp-85fc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209237651031:android:b6010a1b120c6a7e",
+        "android_client_info": {
+          "package_name": "com.dev.achraf.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209237651031-9us5movcokgbtevafsm5kv5n6dba87ij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.achraf.demoapp",
+            "certificate_hash": "f86ceedda7c7917c39bfdcde07138e68094ff25b"
+          }
+        },
+        {
+          "client_id": "209237651031-dnle2v2b8149kht91io7g90tmj5noqoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZmS4SwAA2HLtUSMtkkx1Q1jFiyT1Hk9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209237651031-dnle2v2b8149kht91io7g90tmj5noqoi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
